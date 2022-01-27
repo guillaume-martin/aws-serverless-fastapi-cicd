@@ -27,7 +27,7 @@ jobs:
       - name: Virtual ENV
         # Use caching because some actions may be repeated
         # Caching dependencies can speed up the proces
-        uses: actions/cach@v2
+        uses: actions/cache@v2
         id: cache-venv  # name for referring later
         with:
           path: venv    # what we cache
