@@ -44,7 +44,7 @@ jobs:
 
       # Step 5
       - name: Run Tests
-        run: . venv.bin.activate && pytest
+        run: . venv/bin/activate && pytest
 
       # Step 6
       - name: Create archive of dependencies

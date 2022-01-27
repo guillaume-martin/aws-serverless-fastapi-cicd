@@ -25,3 +25,8 @@ pip install pytest
 ```
 - Create tests/test_core.py
 
+
+# GitHub Actions - CI/CD Pipeline
+- Create `.github/workflows` directory
+- Create `main.yml` file
+
