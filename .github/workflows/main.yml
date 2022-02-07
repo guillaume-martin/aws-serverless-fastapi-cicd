@@ -1,4 +1,4 @@
-name: Serverless FastAPI CI/CD
+name: FastAPI CI/CD
 
 on:
   # Trigger the workflow on push
