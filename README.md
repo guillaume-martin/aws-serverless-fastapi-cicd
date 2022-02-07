@@ -30,3 +30,23 @@ pip install pytest
 - Create `.github/workflows` directory
 - Create `main.yml` file
 
+
+# Set up AWS
+## Create an S3 bucket
+
+
+## Create a Lambda function
+- Create new function
+- Go to Runtime settings
+- Change Handler to `main.handler`
+- Install mangum `pip install mangum`
+- Add handler to `main.py`
+
+## Create new pipeline for deployment
+- Get new access key from AWS
+    - My security credentials -> Access Keys -> Create New Access Key
+- Go to gihub
+- repository -> settings -> secrets -> New repository secret
+    - Set name: AWS_SECRET_ACCESS_KEY
+    - Paste value
+
